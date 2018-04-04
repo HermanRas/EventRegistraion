@@ -1,10 +1,10 @@
 # EventRegistraion
 Basic PHP,CSS,HTML5 web page for Guests to register for an event, stores data in SQLite.  
   
-#Credit  
-Louis Pretoruis             All the Graphics and Art.  
+# Credit  
+###### Louis Pretoruis             All the Graphics and Art.  
   
-#Main Pages  
+# Main Pages  
 index.php                   Landing Page & Menu  
 status.php                  CSV copy of the data in the SQLite Database  
   
