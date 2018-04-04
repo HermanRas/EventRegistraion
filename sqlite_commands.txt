@@ -1,0 +1,61 @@
+#SQLite regdb.sqlite
+
+Command	Description
+.show	Displays current settings for various parameters
+.databases	Provides database names and files
+.quit	Quit sqlite3 program
+.tables	Show current tables
+.schema	Display schema of table
+.header	Display or hide the output table header
+.mode	Select mode for the output table
+.dump	Dump database in SQL text format
+
+
+#Cleanup
+SQLite> DELETE FROM tblename;
+SQLite> VACUUM;
+
+#create new tables
+CREATE TABLE emp_reg ( 
+	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
+	name TEXT NOT NULL,
+	surname TEXT NOT NULL,	
+	operation TEXT NOT NULL,
+	costcode TEXT NOT NULL,	
+	jobtitle TEXT NOT NULL,	
+	email TEXT NOT NULL, 
+	mobile TEXT NOT NULL,	
+	office TEXT NOT NULL,	
+	gender TEXT NOT NULL,	
+	diet TEXT NOT NULL,	
+	comment TEXT NOT NULL );
+	
+CREATE TABLE ext_reg ( 
+	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
+	name TEXT NOT NULL,
+	surname TEXT NOT NULL,	
+	company TEXT NOT NULL,		
+	jobtitle TEXT NOT NULL,	
+	email TEXT NOT NULL, 
+	mobile TEXT NOT NULL,	
+	office TEXT NOT NULL,	
+	gender TEXT NOT NULL,	
+	diet TEXT NOT NULL,	
+	how TEXT NOT NULL,	
+	comment TEXT NOT NULL );
+	
+CREATE TABLE ven_reg ( 
+	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
+	name TEXT NOT NULL,
+	surname TEXT NOT NULL,	
+	company TEXT NOT NULL,		
+	jobtitle TEXT NOT NULL,	
+	email TEXT NOT NULL, 
+	mobile TEXT NOT NULL,	
+	office TEXT NOT NULL,	
+	stallsize TEXT NOT NULL,
+	staffcount TEXT NOT NULL,	
+	diet TEXT NOT NULL,	
+	how TEXT NOT NULL,	
+	comment TEXT NOT NULL );
+	
