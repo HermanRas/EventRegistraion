@@ -1,25 +1,33 @@
 /* unvisited link */
+a{
+    font-family: 'Open Sans Condensed', arial, sans;
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 30px;
+    font-weight: bold;
+}
 a:link {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /* visited link */
 a:visited {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /* mouse over link */
 a:hover {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /* selected link */
 a:active {
-    color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
 }
 body{
     background-color: graytext;
-    background-image: url("pics/tech.png");
+    background-image: url("pics/golfdayback.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -29,7 +37,7 @@ body{
     background-color: #FFFFFF;
     text-align: center;
     border-radius: 25px;
-    margin: 50px auto;
+    margin: 10px auto;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
     -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
@@ -48,7 +56,7 @@ body{
 
 }
 .form-style-8 h2{
-    background: #037;
+    background: #9CBF49;
     text-transform: uppercase;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #FFFFFF;
@@ -89,22 +97,22 @@ body{
 }
 .form-style-8 input[type="button"], 
 .form-style-8 input[type="submit"]{
-    -moz-box-shadow: inset 0px 1px 0px 0px #032;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #032;
-    box-shadow: inset 0px 1px 0px 0px #032;
-    background-color: #037;
-    border: 1px solid #037;
+    -moz-box-shadow: inset 0px 1px 0px 0px #000000;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #000000;
+    box-shadow: inset 0px 1px 0px 0px #000000;
+    background-color: #9CBF49;
+    border: 1px solid #9CBF49;
     display: inline-block;
     cursor: pointer;
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 14px;
+    font-weight: bold;
     padding: 8px 18px;
     text-decoration: none;
     text-transform: uppercase;
 }
 .form-style-8 input[type="button"]:hover, 
 .form-style-8 input[type="submit"]:hover {
-    background:linear-gradient(to bottom, #037 5%, #255 100%);
-    background-color:#037;
+    background:linear-gradient(to bottom, #9CBF49 5%, #FFFFFF 100%);
+    background-color:#FFFFFF;
 }

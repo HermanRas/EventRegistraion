@@ -16,7 +16,7 @@
         
     </head>
     <body>
-        <div style="text-align: center"><img src="pics/technologylogo.png" alt="Logo" width="1000px" style="border-radius: 25px;" /></div>
+        <?php include './inc_header.php'; ?>
         <div class="bodycontent">
             <div class="form-style-8">
 
