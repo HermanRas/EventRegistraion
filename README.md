@@ -4,7 +4,9 @@ Basic PHP,CSS,HTML5 web page for Guests to register for an event, stores data in
 # Credit  
 ## Louis Pretoruis  
 - All the Graphics and Art.  
-  
+## Jako Fourie  
+- Quality assurance.    
+
 # Main Pages  
 - index.php  
 Landing Page & Menu  

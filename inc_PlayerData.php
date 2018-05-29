@@ -6,7 +6,7 @@
                        <br />
                        <input type="checkbox" name="sleepday1" value="22" /> Thursday
                        <br />
-                       <input type="checkbox" name="sleepdat2" value="23" /> Vrydag
+                       <input type="checkbox" name="sleepdat2" value="23" /> Friday
                        <br />
                        <br />
                    </div>

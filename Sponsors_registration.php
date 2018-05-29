@@ -20,7 +20,7 @@
                        <br />
                        <input type="checkbox" name="sleepday1" value="22" /> Thursday 22 June 2018
                        <br />
-                       <input type="checkbox" name="sleepdat2" value="23" /> Vrydag 23 June 2018
+                       <input type="checkbox" name="sleepdat2" value="23" /> Friday 23 June 2018
                        <br />
                        <br />
                    </div>
