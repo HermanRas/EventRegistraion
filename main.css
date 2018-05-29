@@ -116,3 +116,9 @@ body{
     background:linear-gradient(to bottom, #9CBF49 5%, #FFFFFF 100%);
     background-color:#FFFFFF;
 }
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+}

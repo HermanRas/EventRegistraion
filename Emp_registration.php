@@ -13,18 +13,28 @@
                   <input type="text" name="name" placeholder="First Name" required="required" />
                   Surname:
                   <input type="text" name="surname" placeholder="Last Name" required="required" />
-                  Operation :
-                  <select name="operation" required="">
-                      <option value="">Please Select your Operation</option>
-                      <option value="finsch">Finsch Diamond Mine</option>
-                      <option value="cullinan">Cullinan Diamond Mine</option>
-                      <option value="koffie">Koffiefontein Mine JV</option>
-                      <option value="kimberley">Kimberley Ekapa Mining JV</option>
-                      <option value="phq">Petra Head Office</option>
-                      <option value="williamson">Williamson Diamond Mine</option>
+                  Accommodation:
+                   <div style="color: black; font-size: 16px;">
+                       <br />
+                       <input type="checkbox" name="sleepday1" value="22" /> Thursday 22 June 2018
+                       <br />
+                       <input type="checkbox" name="sleepdat2" value="23" /> Vrydag 23 June 2018
+                       <br />
+                       <br />
+                   </div>
+                  T-Shirt Size :
+                  <select name="TshirtSize" required="">
+                    <option value="">Please Select your T-Shirt Size</option>
+                    <option value="XXXS"> XXXS (76-81cm)</option>
+                    <option value="XXS"> XXS (81-86cm)</option>
+                    <option value="XS"> XS (86-91cm)</option>
+                    <option value="S"> S (91-96cm)</option>
+                    <option value="M"> M (96-101cm)</option>
+                    <option value="L"> L (101-106cm)</option>
+                    <option value="XL"> XL (106-111cm)</option>
+                    <option value="XXL"> XXL (111-116cm)</option>
+                    <option value="XXXL"> XXXL (116-121cm)</option>
                   </select>
-                  Job Title:
-                  <input type="text" name="jobtitle" placeholder="Job Title" />
                   Email :
                   <input type="email" name="email" placeholder="Email" required="required" />
                   Mobile :
