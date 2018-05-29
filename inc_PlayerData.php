@@ -4,9 +4,9 @@
                   Accommodation:
                    <div style="color: black; font-size: 16px;">
                        <br />
-                       <input type="checkbox" name="sleepday1" value="22" /> Thursday 22 June 2018
+                       <input type="checkbox" name="sleepday1" value="22" /> Thursday
                        <br />
-                       <input type="checkbox" name="sleepdat2" value="23" /> Vrydag 23 June 2018
+                       <input type="checkbox" name="sleepdat2" value="23" /> Vrydag
                        <br />
                        <br />
                    </div>
