@@ -8,7 +8,7 @@
         <div style="max-width:1100px;" class="bodycontent">
             <div style="width: 1000px;" class="form-style-8">
                 <h2>please complete event registration</h2>
-                <form style="color: #666666; " method="post" action="int_insert.php">
+                <form style="color: #666666; " method="post" action="inc_insert_team.php">
                   Team Name:
                   <input type="text" name="TeamName" placeholder="Team Name" required="required" />
                     <div class="column">

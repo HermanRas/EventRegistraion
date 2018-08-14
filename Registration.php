@@ -8,13 +8,13 @@
         <div class="bodycontent">
             <div class="form-style-8">
                 <h2>please complete event registration</h2>
-                <form style="color: #666666" method="post" action="int_insert.php">
+                <form style="color: #666666" method="post" action="inc_insert.php">
                   Name:
                   <input type="text" name="name" placeholder="First Name" required="required" />
                   Surname:
                   <input type="text" name="surname" placeholder="Last Name" required="required" />
                   Company Name:
-                  <input type="text" name="Company Name" placeholder="Company Name" required="required" />
+                  <input type="text" name="company" placeholder="Company Name" required="required" />
                   T-Shirt Size :
                   <select name="TshirtSize" required="">
                     <option value="">Please Select your T-Shirt Size</option>

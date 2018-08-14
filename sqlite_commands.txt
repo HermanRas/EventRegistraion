@@ -16,32 +16,36 @@ SQLite> DELETE FROM tblename;
 SQLite> VACUUM;
 
 	
-CREATE TABLE team_reg ( 
-	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
-	Teamname TEXT NOT NULL,
+CREATE TABLE team_reg (
+    post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+        Teamname TEXT NOT NULL,
         p1name TEXT NOT NULL,
-	p1surname TEXT NOT NULL,		
+        p1surname TEXT NOT NULL,
+        p1comany TEXT NOT NULL,
         p1tshirt TEXT NOT NULL,
-	p1email TEXT NOT NULL, 
-	p1mobile TEXT NOT NULL,	
+        p1email TEXT NOT NULL,
+        p1mobile TEXT NOT NULL,
         p2name TEXT NOT NULL,
-	p2surname TEXT NOT NULL,	
+        p2surname TEXT NOT NULL,  
+        p2comany TEXT NOT NULL,
         p2tshirt TEXT NOT NULL,
-	p2email TEXT NOT NULL, 
-	p2mobile TEXT NOT NULL,
+        p2email TEXT NOT NULL,
+        p2mobile TEXT NOT NULL,
         p3name TEXT NOT NULL,
-	p3surname TEXT NOT NULL,		
+        p3surname TEXT NOT NULL,
+        p3comany TEXT NOT NULL,
         p3tshirt TEXT NOT NULL,
-	p3email TEXT NOT NULL, 
-	p3mobile TEXT NOT NULL,	
+        p3email TEXT NOT NULL,
+        p3mobile TEXT NOT NULL,
         p4name TEXT NOT NULL,
-	p4surname TEXT NOT NULL,	
+        p4surname TEXT NOT NULL,
+        p4comany TEXT NOT NULL,
         p4tshirt TEXT NOT NULL,
-	p4email TEXT NOT NULL, 
-	p4mobile TEXT NOT NULL);
+        p4email TEXT NOT NULL,
+        p4mobile TEXT NOT NULL);
 	
 CREATE TABLE vip_reg ( 
-	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
+    post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
 	name TEXT NOT NULL,
 	surname TEXT NOT NULL,	
         company TEXT NOT NULL,	
