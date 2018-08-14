@@ -15,63 +15,37 @@ Command	Description
 SQLite> DELETE FROM tblename;
 SQLite> VACUUM;
 
-#create new tables
-CREATE TABLE emp_reg ( 
-	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
-	name TEXT NOT NULL,
-	surname TEXT NOT NULL,	
-	day1 TEXT NOT NULL,
-	day2 TEXT NOT NULL,	
-        tshirt TEXT NOT NULL,
-	email TEXT NOT NULL, 
-	mobile TEXT NOT NULL,	
-        comment TEXT NOT NULL);
 	
 CREATE TABLE team_reg ( 
 	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
 	Teamname TEXT NOT NULL,
         p1name TEXT NOT NULL,
-	p1surname TEXT NOT NULL,	
-	p1day1 TEXT NOT NULL,
-	p1day2 TEXT NOT NULL,	
+	p1surname TEXT NOT NULL,		
         p1tshirt TEXT NOT NULL,
 	p1email TEXT NOT NULL, 
 	p1mobile TEXT NOT NULL,	
-        p1comment TEXT NOT NULL
         p2name TEXT NOT NULL,
 	p2surname TEXT NOT NULL,	
-	p2day1 TEXT NOT NULL,
-	p2day2 TEXT NOT NULL,	
         p2tshirt TEXT NOT NULL,
 	p2email TEXT NOT NULL, 
-	p2mobile TEXT NOT NULL,	
-        p2comment TEXT NOT NULL
+	p2mobile TEXT NOT NULL,
         p3name TEXT NOT NULL,
-	p3surname TEXT NOT NULL,	
-	p3day1 TEXT NOT NULL,
-	p3day2 TEXT NOT NULL,	
+	p3surname TEXT NOT NULL,		
         p3tshirt TEXT NOT NULL,
 	p3email TEXT NOT NULL, 
 	p3mobile TEXT NOT NULL,	
-        p3comment TEXT NOT NULL
         p4name TEXT NOT NULL,
 	p4surname TEXT NOT NULL,	
-	p4day1 TEXT NOT NULL,
-	p4day2 TEXT NOT NULL,	
         p4tshirt TEXT NOT NULL,
 	p4email TEXT NOT NULL, 
-	p4mobile TEXT NOT NULL,	
-        p4comment TEXT NOT NULL );
+	p4mobile TEXT NOT NULL);
 	
-CREATE TABLE spon_reg ( 
+CREATE TABLE vip_reg ( 
 	post_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
 	name TEXT NOT NULL,
 	surname TEXT NOT NULL,	
-        company TEXT NOT NULL,
-	day1 TEXT NOT NULL,
-	day2 TEXT NOT NULL,	
+        company TEXT NOT NULL,	
         tshirt TEXT NOT NULL,
 	email TEXT NOT NULL, 
-	mobile TEXT NOT NULL,	
-        comment TEXT NOT NULL );
+	mobile TEXT NOT NULL);
 	

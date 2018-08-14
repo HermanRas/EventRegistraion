@@ -13,29 +13,20 @@
                   <input type="text" name="name" placeholder="First Name" required="required" />
                   Surname:
                   <input type="text" name="surname" placeholder="Last Name" required="required" />
-                  Company:
-                  <input type="text" name="company" placeholder="Fedhealth,Momentum..." required="required" />
-                  Accommodation:
-                   <div style="color: black; font-size: 16px;">
-                       <br />
-                       <input type="checkbox" name="sleepday1" value="22" /> Thursday 22 June 2018
-                       <br />
-                       <input type="checkbox" name="sleepdat2" value="23" /> Friday 23 June 2018
-                       <br />
-                       <br />
-                   </div>
+                  Company Name:
+                  <input type="text" name="Company Name" placeholder="Company Name" required="required" />
                   T-Shirt Size :
                   <select name="TshirtSize" required="">
                     <option value="">Please Select your T-Shirt Size</option>
-                    <option value="XXXS"> XXXS (76-81cm)</option>
-                    <option value="XXS"> XXS (81-86cm)</option>
-                    <option value="XS"> XS (86-91cm)</option>
-                    <option value="S"> S (91-96cm)</option>
-                    <option value="M"> M (96-101cm)</option>
-                    <option value="L"> L (101-106cm)</option>
-                    <option value="XL"> XL (106-111cm)</option>
-                    <option value="XXL"> XXL (111-116cm)</option>
-                    <option value="XXXL"> XXXL (116-121cm)</option>
+                    <option value="S"> S </option>
+                    <option value="M"> M </option>
+                    <option value="L"> L </option>
+                    <option value="XL"> XL </option>
+                    <option value="XXL"> XXL </option>
+                    <option value="XXXL"> XXXL </option>
+                    <option value="XXXXL"> XXXXL </option>
+                    <option value="XXXXXL"> XXXXXL </option>
+                    <option value="XXXXXXL"> XXXXXXL </option>
                   </select>
                   Email :
                   <input type="email" name="email" placeholder="Email" required="required" />
