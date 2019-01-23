@@ -19,9 +19,10 @@ a:active {
 }
 body{
     background-color: graytext;
-    background-image: url("pics/tech.png");
+    background-image: url("pics/Cloud_background_with_grass.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100% 100%;
 }
 .bodycontent {
     max-width: 800px;
