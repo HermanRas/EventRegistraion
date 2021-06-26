@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Slicebox - 3D Image Slider</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+
+</head>
+
+<body style="height: 100%; display: table; margin: auto;font-size: 1em; color: #fff;">
+    <div class="container">
+
+            <div class="content-to-hide" style="border-radius: 5px; background-color:#003377;box-shadow:  5px 5px 30px 5px #0044b2;">
+                <h1 style="font-size: 6em;"><img src="../pics/technologylogo.png" alt="Logo" width="200px" />Techcon 2019</h1>
+            </div>
+
+        <div class="wrapper">
+            <ul id="sb-slider" class="sb-slider">
+                <li>
+                    <div  class="centered">
+                        <h1>Welcome</h1>
+                    </div>
+                    <img src="images/6.jpg" alt="images/6.jpg"  class="img-resize" />
+                    <div class="sb-description">
+                        <h3>Welcome</h3>
+                    </div>
+                </li>
+                <li>
+                    <form class="centered" style="text-align: center;">
+                        <H2>Register Now !</H2>
+                        <label for="name">Name: </label><br>
+                        <input name="name" type="text"><br>
+                        <label for="email">Email: </label><br>
+                        <input name="email" type="text"><br>
+                        <label for="CN">Company Number: </label><br>
+                        <input name="CN" type="text"><br><br>
+                        <button style="color: #fff;background-color: #444;padding:5px;border: 0;">Register</button>
+                    </form>
+                    <img src="images/7.jpg" alt="images/7.jpg" class="img-resize"/>
+                    <div class="sb-description">
+                        <h3>Employee Registration</h3>
+                    </div>
+                </li>
+                <li>
+                    <form class="centered" style="text-align: center;">
+                        <H2>Get floor space!</H2>
+                        <label style="color:#444;" for="name">Name: </label><br>
+                        <input name="name" type="text"><br>
+                        <label style="color:#444;" for="email">Email: </label><br>
+                        <input name="email" type="text"><br><br>
+                        <button style="color: #fff;background-color: #444;padding:5px;border: 0;">Register</button>
+                    </form>
+                    <img src="images/2.jpg" alt="image2" class="img-resize" />
+                    <div class="sb-description">
+                        <h3>Vendor Registration</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/4.jpg" alt="image4" class="img-resize" />
+                    <div class="sb-description">
+                        <h3>Agenda</h3>
+                    </div>
+                </li>
+                <li>
+                    <img src="../pics/Vendors.JPG" alt="image1" class="img-resize" />
+                    <div class="sb-description">
+                        <h3>Sponsors</h3>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="shadow" class="shadow"></div>
+
+            <div id="nav-arrows" class="nav-arrows">
+                <a href="#">Next</a>
+                <a href="#">Previous</a>
+            </div>
+
+            <div id="nav-options" class="nav-options">
+                <span id="navPlay">Play</span>
+                <span id="navPause">Pause</span>
+            </div>
+
+        </div><!-- /wrapper -->
+
+
+    </div>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            var Page = (function () {
+
+                var $navArrows = $('#nav-arrows').hide(),
+                    $navOptions = $('#nav-options').hide(),
+                    $shadow = $('#shadow').hide(),
+                    slicebox = $('#sb-slider').slicebox({
+                        onReady: function () {
+
+                            $navArrows.show();
+                            $navOptions.show();
+                            $shadow.show();
+
+                        },
+                        orientation: 'h',
+                        cuboidsCount: 3
+                    }),
+
+                    init = function () {
+
+                        initEvents();
+
+                    },
+                    initEvents = function () {
+
+                        // add navigation events
+                        $navArrows.children(':first').on('click', function () {
+
+                            slicebox.next();
+                            return false;
+
+                        });
+
+                        $navArrows.children(':last').on('click', function () {
+
+                            slicebox.previous();
+                            return false;
+
+                        });
+
+                        $('#navPlay').on('click', function () {
+
+                            slicebox.play();
+                            return false;
+
+                        });
+
+                        $('#navPause').on('click', function () {
+
+                            slicebox.pause();
+                            return false;
+
+                        });
+
+                    };
+
+                return { init: init };
+
+            })();
+
+            Page.init();
+
+        });
+    </script>
+
+</body>
+
+</html>
